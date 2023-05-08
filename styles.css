@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+.photos{
+	display:flex;
+	flex-wrap:wrap;
+    flex: 14px 18px 50px; 
+	
+
+}
+.photos{
+	background-colr:red;
+}
