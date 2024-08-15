@@ -1,11 +1,25 @@
-/*  your css code here. If applicable */
-.photos{
-	display:flex;
-	flex-wrap:wrap;
-    flex: 14px 18px 50px; 
-	
+#animal-photos{
+	background-color:grey;
+	padding:1rem;
+}
+#photo-heading{
+	color:white;
+	text-align:center;
+}
 
-}
 .photos{
-	background-colr:red;
+	display:grid;
+	gap:.5rem 0;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, auto);
+	
 }
+
+.photos > img{
+	border-radius:1.5rem;
+	width:150px;
+	
+	
+}
+
+
