@@ -1,6 +1,7 @@
 #animal-photos{
 	background-color:grey;
 	padding:1rem;
+	border-radius:1rem;
 }
 #photo-heading{
 	color:white;
@@ -12,6 +13,14 @@
 	gap:.5rem 0;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, auto);
+	    display: grid;
+    gap: .5rem 0;
+    grid-template-columns: repeat(3, 170px);
+    /* grid-template-rows: repeat(3, auto); */
+    /* align-content: stretch; */
+    /* justify-items: center; */
+    align-items: center;
+    justify-content: center;
 	
 }
 
